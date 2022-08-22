@@ -4,7 +4,7 @@ class Solution {
         long right=num;
         long mid=0;
         while(left<=right){
-            mid=(left+right)/2;
+            mid=left+(right-left)/2;
             if(mid*mid==num){
                 return true;
             }
