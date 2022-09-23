@@ -12,8 +12,6 @@ class Solution {
                     return $arr=array($i,$j);
                 }
             }
-             /* return null*/;
         }
-       
     }
 }
