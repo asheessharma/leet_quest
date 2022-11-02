@@ -24,9 +24,9 @@ class Solution {
         if(p.val!=q.val){
             return false;
         }
-        boolean left=isSameTree(p.left,q.left);
-        boolean right=isSameTree(p.right,q.right);
-        return left && right;
+        // boolean left=isSameTree(p.left,q.left);
+        // boolean right=isSameTree(p.right,q.right);
+        return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
         
         
     }
